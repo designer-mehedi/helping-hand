@@ -115,6 +115,7 @@ body{
     width: 30%;
     margin: 2% 2%;
     padding: 60px 25px;
+    border-radius: 5px;
 }
 .packages img{
     margin-bottom: 20px;
@@ -158,4 +159,40 @@ body{
 }
 .subscription-form .link-button{
     margin-bottom: 50px;
+}
+
+footer{
+    padding: 25px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+footer h4{
+    font-size: 22px;
+    color: #E4007C;
+    margin-bottom: 15px;
+}
+
+.give-hope{
+    padding: 100px 0;
+}
+.give-hope-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.give-hope-content h2{
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+.give-hope-content p{
+    font-size: 17px;
+    line-height: 28px;
+}
+.give-hope-content img{
+    width: 600px;
+}
+.give-hope-content .hope{
+    width: 48%;
+    margin: 2% 2%;
 }
