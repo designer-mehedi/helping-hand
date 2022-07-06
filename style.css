@@ -35,7 +35,7 @@ body{
 
 
 .banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/donation2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/donation1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body{
 }
 
 .send-donation{
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .donation-amounts ul{
@@ -104,12 +104,12 @@ body{
 }
 
 .donation-plan{
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .donation-plan-contents{
     display: flex;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .packages{
     width: 30%;
@@ -138,7 +138,7 @@ body{
 }
 
 .subscription{
-    padding: 70px 0;
+    padding: 80px 0;
 }
 .subscription-form{
     background-color: #ffe7c8;
@@ -153,9 +153,11 @@ body{
 .subscription-input{
     width: 30%;
     padding: 12px 10px;
+    font-size: 16px;
     border: none;
     background-color: rgb(184, 184, 184);
     outline: none;
+    border-radius: 5px;
 }
 .subscription-form .link-button{
     margin-bottom: 50px;
@@ -174,7 +176,7 @@ footer h4{
 }
 
 .give-hope{
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .give-hope-content{
     display: flex;
