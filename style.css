@@ -82,7 +82,7 @@ body{
     border: 2px solid transparent;
     border-radius: 5px;
 }
-.send-donation-content .donation-amounts .active{
+.send-donation-content .donation-amounts ul li.active{
     background: rgb(255, 220, 220);
     border: 2px solid #E4007C;
 }
@@ -116,11 +116,9 @@ body{
 .donation-plan-contents .food {
     background-color: rgb(255, 241, 225);
 }
-
 .donation-plan-contents .shelter {
     background-color: rgb(255, 173, 173);
 }
-
 .donation-plan-contents .education {
     background-color: rgb(173, 255, 255);
 }
