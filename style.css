@@ -37,14 +37,14 @@ body{
 
 .banner{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/donation1.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    /* padding: 180px 0; */
+    
 }
 .banner-content{
     text-align: center;
-    color: white;
+    color: #fff;
     width: 60%;
     margin: auto;
     padding: 170px 0;
@@ -62,13 +62,13 @@ body{
 .send-donation{
     padding: 80px 0;
 }
-.donation-amounts ul{
+.send-donation-content .donation-amounts ul{
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-.donation-amounts li{
+.send-donation-content .donation-amounts ul li{
     margin: 0 10px;
     height: 45px;
     width: 50px;
@@ -82,7 +82,7 @@ body{
     border: 2px solid transparent;
     border-radius: 5px;
 }
-.donation-amounts .active{
+.send-donation-content .donation-amounts .active{
     background: rgb(255, 220, 220);
     border: 2px solid #E4007C;
 }
@@ -93,11 +93,11 @@ body{
     justify-content: center;
     align-items: center;
 }
-.send-donation-content .input-box{
+.send-donation-content .input-area .input-box{
     width: 50%;
+    padding: 20px 0;
     text-align: center;
     font-size: 18px;
-    padding: 20px 0;
     border: none;
     outline: none;
     border-bottom: 1px solid #ddd;
@@ -113,56 +113,59 @@ body{
     display: flex;
     margin-top: 40px;
 }
-.packages{
+.donation-plan-contents .food {
+    background-color: rgb(255, 241, 225);
+}
+
+.donation-plan-contents .shelter {
+    background-color: rgb(255, 173, 173);
+}
+
+.donation-plan-contents .education {
+    background-color: rgb(173, 255, 255);
+}
+.donation-plan-contents .packages{
     width: 30%;
     margin: 2% 2%;
     padding: 60px 25px;
     border-radius: 5px;
 }
-.packages img{
+.donation-plan-contents .packages img{
     margin-bottom: 20px;
 }
-.packages h3{
+.donation-plan-contents .packages h3{
     font-size: 25px;
     margin-bottom: 20px;
 }
-.packages p{
+.donation-plan-contents .packages p{
     line-height: 25px;
 }
-.food{
-    background-color: rgb(255, 241, 225);
-}
-.shelter{
-    background-color: rgb(255, 173, 173);
-}
-.education{
-    background-color: rgb(173, 255, 255);
-}
+
 
 /* Give Hope Style */
 
-.give-hope {
+.give-hope{
     padding: 80px 0;
 }
-.give-hope-content {
+.give-hope-content{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.give-hope-content h2 {
-    font-size: 48px;
-    margin-bottom: 18px;
-}
-.give-hope-content p {
-    font-size: 17px;
-    line-height: 28px;
-}
-.give-hope-content img {
-    width: 600px;
-}
 .give-hope-content .hope {
     width: 48%;
     margin: 2% 2%;
+}
+.give-hope-content .content-image img {
+    width: 600px;
+}
+.give-hope-content .content-text h2{
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+.give-hope-content .content-text p{
+    font-size: 17px;
+    line-height: 28px;
 }
 
 /* Blog */
@@ -200,6 +203,7 @@ body{
 .single-post p{
     margin-bottom: -20px;
 }
+
 /* Subscription */
 
 .subscription{
@@ -215,9 +219,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-.subscription-input{
-    width: 30%;
-    padding: 12px 10px;
+.subscription-form .subscription-input{
+    width: 35%;
+    padding: 11.5px 10px;
     font-size: 16px;
     border: none;
     background-color: rgb(184, 184, 184);
@@ -226,6 +230,8 @@ body{
 }
 .subscription-form .link-button{
     margin-bottom: 50px;
+    margin-left: -15px;
+    border-radius: 0 5px 5px 0;
 }
 
 /* Footer Style */
