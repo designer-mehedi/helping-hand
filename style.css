@@ -12,7 +12,7 @@ body{
 .link-button{
     display: inline-block;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 11px 30px;
     background: #E4007C;
     color: white;
     margin-top: 50px;
@@ -86,7 +86,7 @@ body{
 }
 
 .input-box{
-    width: 40%;
+    width: 50%;
     text-align: center;
     font-size: 18px;
     padding: 20px 0;
@@ -101,4 +101,61 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.donation-plan{
+    padding: 60px 0;
+}
+
+.donation-plan-contents{
+    display: flex;
+    margin-top: 100px;
+}
+.packages{
+    width: 30%;
+    margin: 2% 2%;
+    padding: 60px 25px;
+}
+.packages img{
+    margin-bottom: 20px;
+}
+.packages h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.packages p{
+    line-height: 25px;
+}
+.food{
+    background-color: rgb(255, 241, 225);
+}
+.shelter{
+    background-color: rgb(255, 173, 173);
+}
+.education{
+    background-color: rgb(173, 255, 255);
+}
+
+.subscription{
+    padding: 70px 0;
+}
+.subscription-form{
+    background-color: #ffe7c8;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscription-input{
+    width: 30%;
+    padding: 12px 10px;
+    border: none;
+    background-color: rgb(184, 184, 184);
+    outline: none;
+}
+.subscription-form .link-button{
+    margin-bottom: 50px;
 }
